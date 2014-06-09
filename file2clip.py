@@ -23,8 +23,8 @@ class PathToClipboard (Action):
 	def get_icon_name(self):
 		return "edit-copy"
 
-	def activate(self, leaf):
-		file = gio.File(leaf.object)
+	def activate(self, file_name):
+		file = gio.File(file_name.object)
 		path = file.get_path()
 		pyperclip.copy(path)
 		
@@ -41,8 +41,8 @@ class ContentToClipboard (Action):
 	def get_icon_name(self):
 		return "edit-copy"
 
-	def activate(self, leaf):
-		file = gio.File(leaf.object)
+	def activate(self, file_name):
+		file = gio.File(file_name.object)
 		stream = file.read()
 		content = stream.read()
 		pyperclip.copy(content)

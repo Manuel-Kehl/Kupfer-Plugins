@@ -8,4 +8,4 @@ It depends on the [pyperclip](http://coffeeghost.net/2010/10/09/pyperclip-a-cros
 python module for accessing the user's clipboard.
 
 If you have [pip](https://pip.pypa.io/en/latest/) installed you can get the dependency
-by executing `pip install pyperclip`
+by executing `pip install pyperclip`.

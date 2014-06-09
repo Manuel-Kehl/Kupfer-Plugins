@@ -17,6 +17,9 @@ class MakeDirectory (Action):
 	def item_types(self):
 		yield FileLeaf
 		
+	def valid_for_item(self, item):
+		return os.path.isdir(item.object)
+		
 	def object_types(self):
 		yield TextLeaf
 		

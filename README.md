@@ -16,4 +16,4 @@ by executing `pip install pyperclip`.
 Make New Directory
 ------------------
 
-A Plugin for creating a directory under the within the currently selected directory.
+A Plugin for creating a directory within the currently selected directory.

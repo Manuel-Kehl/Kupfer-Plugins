@@ -1,9 +1,12 @@
+Kupfer Plugins
+==============
+
+A place for collecting and publishing plugins that I have written for the super convenient "Kupfer" command launcher.
+
+
 File to Clipboard
-=================
-
-A Plugin for copying a file's path or content to the 
-clipboard from within the super convenient "Kupfer" command launcher.
-
+-----------------
+A Plugin for copying a file's path or content to the clipboard from within Kupfer.
 It depends on the [pyperclip](http://coffeeghost.net/2010/10/09/pyperclip-a-cross-platform-clipboard-module-for-python/)
 python module for accessing the user's clipboard.
 

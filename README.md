@@ -13,7 +13,7 @@ python module for accessing the user's clipboard.
 If you have [pip](https://pip.pypa.io/en/latest/) installed you can get the dependency
 by executing `pip install pyperclip`.
 
-Make New Directory
+Make new Directory
 ------------------
 
 A Plugin for creating a directory within the currently selected directory.

@@ -2,7 +2,7 @@ __kupfer_name__ = _("Make New Directory")
 __kupfer_sources__ = ()
 __kupfer_text_sources__ = ()
 __kupfer_actions__ = ("MakeDirectory", )
-__description__ = _("A plugin fo creating a new directory with a given name.")
+__description__ = _("A plugin for creating a new directory with a given name.")
 __version__ = "1.0"
 __author__ = "Manuel Kehl"
 

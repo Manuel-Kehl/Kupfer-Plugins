@@ -2,6 +2,7 @@ Kupfer Plugins
 ==============
 
 A place for collecting and publishing plugins that I have written for the super convenient "Kupfer" command launcher.
+To install a plugin just copy the corresponding py-File into `~/.local/share/kupfer/plugins/` and activate it in Kupfer's preferences.
 
 File to Clipboard
 -----------------

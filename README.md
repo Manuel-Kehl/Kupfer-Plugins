@@ -2,6 +2,7 @@ Kupfer Plugins
 ==============
 
 A place for collecting and publishing plugins that I have written for the super convenient "Kupfer" command launcher.
+
 To install a plugin just copy the corresponding py file into `~/.local/share/kupfer/plugins/` and activate it in Kupfer's preferences.
 
 File to Clipboard
@@ -22,6 +23,7 @@ A plugin for creating a directory within the currently selected directory.
 Parent Directory
 ----------------
 
-A plugin for opening the directory containing the active file in your system's default filechooser. 
+A plugin for opening the directory containing the active file in your system's default filechooser.
+
 It may be necessary to install [xdg-open](http://portland.freedesktop.org/xdg-utils-1.0/xdg-open.html), if you have not done so before.
-On Debian based systems it is contained in the package `xdg-utils`.
+On Debian based systems it is contained in the package `xdg-utils`

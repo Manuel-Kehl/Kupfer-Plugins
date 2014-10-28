@@ -45,4 +45,5 @@ class ContentToClipboard (Action):
 		file = gio.File(file_name.object)
 		stream = file.read()
 		content = stream.read()
+		stream.close()
 		pyperclip.copy(content)

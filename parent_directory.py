@@ -8,6 +8,7 @@ __author__ = "Manuel Kehl"
 
 import os.path
 import os
+import subprocess
 from kupfer.objects import Action, FileLeaf
 
 class OpenParentDirectory (Action):
@@ -29,4 +30,4 @@ class OpenParentDirectory (Action):
 	def activate(self, recent_file):
 		path_to_parent = os.path.abspath(os.path.join(recent_file.object, os.pardir))
 		# xdg-open for opening files in a portable and standard compliant manner
-		os.system('xdg-open ' + path_to_parent)
+		subprocess.call(["xdg-open", path_to_parent])
